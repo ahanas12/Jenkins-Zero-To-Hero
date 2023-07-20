@@ -16,6 +16,7 @@ public class StartApplication {
         model.addAttribute("msg", "This application is deployed on to Kubernetes using Argo CD");
         model.addAttribute("title", "Ahmad Anas");
         model.addAttribute("msg", "DevOps Engineer");
+        model.addAttribute("msg", "Nisum Pakistan");
         return "index";
     }
 
